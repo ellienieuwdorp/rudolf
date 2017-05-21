@@ -7,7 +7,7 @@ app.on('ready', () => {
   win.loadURL('https://web.whatsapp.com')
   win.setMenu(null);
   let content = win.webContents
-
+//win.webContents.openDevTools()
   win.webContents.on('did-finish-load', function() {
         win.webContents.insertCSS(css)
   })
@@ -341,7 +341,7 @@ app.on('ready', () => {
   	"  top: 0 !important;",
   	"  left: 0 !important;",
   	"  width: 100% !important;",
-  	"  content: \'•-•\' !important;",
+//	"  content: \'•-•\' !important;",
   	"  color: var(--bgt) !important;",
   	"  font-size: 24px !important;",
   	"  line-height: 19px !important;",

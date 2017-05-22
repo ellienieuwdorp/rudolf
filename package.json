@@ -7,9 +7,5 @@
     "start": "electron main.js"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "electron": "^1.6.8",
-    "electron-packager": "^8.7.0"
-  }
+  "license": "ISC"
 }

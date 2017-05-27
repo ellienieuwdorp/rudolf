@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-linux": "electron-packager ./ --version 1.4.16 --platform linux --icon ./icon.png --out ./dist --overwrite",
     "start": "electron main.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^8.7.0"
+  }
 }

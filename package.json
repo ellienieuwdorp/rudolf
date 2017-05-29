@@ -1,6 +1,6 @@
 {
-  "name": "fudo",
-  "productName": "fudo",
+  "name": "rudolf",
+  "productName": "rudolf",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -29,7 +29,7 @@
       },
       "electronPackagerConfig": {},
       "electronWinstallerConfig": {
-        "name": "fudo"
+        "name": "rudolf"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
@@ -39,7 +39,7 @@
       },
       "windowsStoreConfig": {
         "packageName": "",
-        "name": "fudo"
+        "name": "rudolf"
       }
     }
   },

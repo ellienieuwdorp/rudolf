@@ -5,7 +5,7 @@ app.on('ready', () => {
   var fs = require('fs');
   let win = new BrowserWindow({width:800, height:600, icon: __dirname + '/icons/icon.png'})
   win.loadURL('https://web.whatsapp.com')
-//win.setMenu(null);
+  win.setMenu(null);
   let content = win.webContents
 //win.webContents.openDevTools()
   win.webContents.on('did-finish-load', function() {

@@ -1,11 +1,13 @@
 # rudolf
 
-Themeable WhatsApp desktop client made with Electron.
+Themed WhatsApp desktop client made with Electron.
 
 # Build
 
 ```
-npm i -g electron
-npm i -g electron-forge
+npm i
+sudo npm i -g electron-forge
 electron-forge make
 ```
+# Screenshots
+![Main menu](/screenshots/screenshot1.jpg?raw=true "Contacts aren't blurred when hovering over them.")

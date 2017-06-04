@@ -10,4 +10,4 @@ sudo npm i -g electron-forge
 electron-forge make
 ```
 # Screenshots
-![Main menu](/screenshots/screenshot1.png?raw=true "Contacts aren't blurred when hovering over them.")
+![Main menu](/screenshots/screenshot2.png?raw=true "Contacts aren't blurred when hovering over them.")

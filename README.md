@@ -11,3 +11,7 @@ npm i
 sudo npm i -g electron-forge
 electron-forge make
 ```
+
+# TO-DO
+* Add class property for xprop
+* Add option to remove contact blur

@@ -11,6 +11,11 @@ app.on('ready', () => {
   win.webContents.on('did-finish-load', function() {
         win.webContents.insertCSS(css)
   })
+  app.on('window-all-closed', app.quit);
+  app.on('before-quit', () => {
+	  win.removeAllListeners('close');
+	  win.close();
+  })
   var css = [
   	":root {",
   	"",

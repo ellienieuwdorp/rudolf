@@ -2,7 +2,7 @@
   "name": "rudolf",
   "productName": "rudolf",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Themed Whatsapp web client",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -27,7 +27,9 @@
           "rpm"
         ]
       },
-      "electronPackagerConfig": {},
+      "electronPackagerConfig": {
+        "icon": "./src/icons/icon.png"
+      },
       "electronWinstallerConfig": {
         "name": "rudolf"
       },

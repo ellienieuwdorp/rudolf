@@ -20,3 +20,4 @@ electron-forge make
 * Theme top bar in windows
 * Add OSX notifications
 * Add OSX badges
+* Disable top bar

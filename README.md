@@ -15,3 +15,6 @@ electron-forge make
 # TO-DO
 * Add class property for xprop
 * Add option to remove contact blur
+* Release for other platforms
+* Fix icons for other platforms
+* Theme top bar in windows

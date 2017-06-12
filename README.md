@@ -18,3 +18,5 @@ electron-forge make
 * Release for other platforms
 * Fix icons for other platforms
 * Theme top bar in windows
+* Add OSX notifications
+* Add OSX badges

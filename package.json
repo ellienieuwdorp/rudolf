@@ -27,13 +27,13 @@
           "rpm"
         ]
       },
-      "electronPackagerConfig": {
-        "icon": "./src/icons/icon.png"
-      },
+      "electronPackagerConfig": {},
       "electronWinstallerConfig": {
         "name": "rudolf"
       },
-      "electronInstallerDebian": {},
+      "electronInstallerDebian": {
+        "icon": "assets/WhatsApp-icon.png"
+      },
       "electronInstallerRedhat": {},
       "github_repository": {
         "owner": "",

@@ -24,6 +24,10 @@ app.on('ready', () => {
 		win.removeAllListeners('close');
 		win.close();
 	})
+	// app.on('before-quit', () => {
+	// 	win.removeAllListeners('close');
+	// 	win.close();
+	// })
 
 	var css = [
 	":root {",
